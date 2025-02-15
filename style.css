@@ -1,0 +1,97 @@
+/* تنظیمات عمومی صفحه */
+body {
+    font-family: B Nazanin, sans-serif;
+    background-color: #d3d3f4; /* رنگ پس‌زمینه */
+    color: #333; /* رنگ متن */
+    text-align: center; /* تنظیم متن به صورت مرکز */
+    padding: 20px;
+}
+
+/* استایل برای عنوان صفحه */
+h1 {
+    color: #4e0eee; /* رنگ سبز برای عنوان */
+}
+
+/* استایل برای ورودی وظیفه */
+#taskInput {
+    padding: 10px;
+    width: 35%; /* عرض 70% از عرض صفحه */
+    border-radius: 5px;
+    border: 1px solid #ddd; /* حاشیه رنگ خاکی */
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* استایل برای دکمه */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* رنگ سبز */
+    color: white; /* رنگ متن دکمه سفید */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer; /* نشانگر موس تغییر می‌کند */
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #45a049; /* رنگ سبز تیره‌تر در حالت هاور */
+}
+
+/* دکمه حذف کلی */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* دکمه حذف کلی */
+button:nth-of-type(2) {
+    background-color: #ff4d4d; /* رنگ قرمز برای حذف کلی */
+}
+
+button:nth-of-type(2):hover {
+    background-color: #ff3333; /* رنگ تیره‌تر برای هاور */
+}
+
+
+/* استایل برای لیست وظایف */
+#taskList {
+    list-style-type: none; /* حذف نقاط پیش‌فرض در لیست */
+    width: 50%; /* تعیین عرض لیست به اندازه 50 درصد از صفحه */
+    margin: 0 auto; /* وسط چین کردن لیست */
+    padding: 0;
+}
+
+/* استایل برای هر وظیفه در لیست */
+#taskList li {
+    background-color: #f9f9f9; /* رنگ پس‌زمینه وظایف */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* رنگ وظیفه‌های انجام شده */
+.completed {
+    text-decoration: line-through; /* خط خوردن متن */
+    color: #888; /* رنگ خاکی برای وظایف انجام شده */
+}
+
+/* دکمه ویرایش */
+button.edit-button {
+    background-color: #ffa500; /* رنگ نارنجی برای ویرایش */
+}
+
+button.edit-button:hover {
+    background-color: #e69500; /* رنگ تیره‌تر برای هاور */
+}
